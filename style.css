@@ -1,0 +1,163 @@
+@font-face {
+	font-family: "Righteous-Regular";
+	src: url("Righteous-Regular.ttf");
+}
+
+html, body {
+	margin: 0;
+	width: 100vw;
+	height: 100%;
+	background-color: #6fab55;
+	font-family: Righteous-Regular;
+}
+
+#Main {
+	top: 0;
+	position: relative;
+	background-image: url("maldives.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	color: #0f6032;
+
+
+}
+
+#Title {
+	text-align: left;
+	padding-left: 10vw;
+}
+
+#Book {
+	padding-top: 20vh;
+	color: white;
+}
+
+#Book > h2 {
+	font-size: 5vw;
+	margin-bottom: 50px;
+	-webkit-text-stroke: 1px black;
+}
+
+button {
+	font-family: Righteous-Regular;
+	width: auto;
+	height: auto;
+	padding: 2vh 4vw;
+	font-size: 2vh;
+	background-color: #6fab55;
+	background-size: cover;
+	border: none;
+	border-radius: 25px;
+}
+
+button:hover {
+	background-color: #0f6032;
+	cursor: pointer;
+}
+
+#Info {
+	top: 0;
+	position: relative;
+	background-image: url("sunrise.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	color: black;
+
+}
+
+#Panel {
+	position: relative;
+	top: 20%;
+	background-color: rgba(151, 151, 151, 0.51);
+	-webkit-text-stroke: 0.1px white;
+	width: 75vw;
+	height: 60vh;
+	margin: auto;
+	padding: 0px;
+}
+
+.Side {
+	width: 50%;
+	height: 100%;
+	padding: 50px 0px;
+	position: relative;
+	float: left;
+	opacity: 1;
+	font-size: 2.5vh;
+}
+
+.TextArea {
+	height: 90%;
+	position: relative;
+	padding: 1vh 4vw;
+	text-align: left;
+}
+
+.TextArea > p {
+	font-size: 1.5vh;
+	position: relative;
+	top: 40%;
+}
+
+#Easy {
+	top: 0;
+	position: relative;
+	background-color: #6fab55;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0px;
+	text-align: right;
+	color: black;
+}
+
+#Easy > .Side {
+	padding: 0;
+}
+
+#Easy > .Side > .TextArea > button {
+	background-color: #0f6032;
+}
+
+#Easy > .Side > .TextArea > button:hover {
+	background-color: #598a44
+}
+
+#Easy > .Side > .TextArea {
+	text-align: justify;
+	padding: 20vh 15vw;
+}
+
+.Side > img {
+	position: relative;
+	left: 5vw;
+}
+
+.Contact {
+	list-style: none;
+}
+
+footer {
+	padding: 4vh 5vw;
+	height: 50vh;
+	width: 100vw;
+}
+
+span {
+	margin: auto;
+	text-align: left;
+	padding: 20px 5vw;
+
+}
